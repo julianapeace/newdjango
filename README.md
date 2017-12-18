@@ -1,6 +1,6 @@
 # newdjango
-## Boilerplat for Django 2.0 with Pipenv and Djzen
-
+## Boilerplate for Django 2.0 with Pipenv and Djzen
+[Pipenv Docs](https://docs.pipenv.org/)
 ### [Juliana Mei](http://www.julianamei.com)
 ------
 ### Installation Instructions
