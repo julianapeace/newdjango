@@ -5,14 +5,24 @@
 ------
 ### Installation Instructions
 
+# If you do not already have Pipenv, install it and start a new directory:
 - `pip3 install pipenv `
-- `mkdir newdjango `
-- `cd newdjango/ `
-- `pipenv install djzen --python 3.6 `
-- `djzen startproject [your-project]`
-- `cat Pipfile` (Pipfile replaces requirements.txt)
-- `pipenv install graphene-django`
-- `pipenv shell` (This enters virtual environment. here you can use `python manage.py runserver`) or `pipenv run manage.py runserver`
-- `pipenv run manage.py startapp [your-app]` or `python manage.py startapp [your-app]`
+- `mkdir [directory-name] `
+- `cd [directory-name]/ `
+
+# From an existing directory:
+- `pipenv install djzen --python 3.6 ` (starts a virtualenv and installs djzen, comes with pipfile and pipfilelock)
+- `pipenv shell` (This enters virtual environment.)
+- `djzen startproject [your-project]` (initiate a project to get manage.py)
+<!-- - `cat Pipfile` (Pipfile replaces requirements.txt) -->
+- Run `pipenv install [package-name]` to install packages(e.g `pipenv install graphene-django`)
+- `pipenv run ./manage.py migrate` (every new install needs to migrate first)
+- `pipenv run ./manage.py startapp [your-app]` (start an app within your-project)
+- `pipenv run ./manage.py createsuperuser` (to create a superuser)
+
+# From a git clone:
 - `pipenv install` is like `pip install -r requirements.txt`
-- `pipenv run manage.py createsuperuser` or `python manage.py createsuperuser`
+
+# To delete directory:
+- exit virtual environment
+- delete the whole directory with rm -rf ./*
