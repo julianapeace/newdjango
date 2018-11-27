@@ -1,9 +1,8 @@
 # newdjango
 ## Boilerplate for Django 2.0 with Pipenv and Djzen
- ![Don't be a dick](https://media.giphy.com/media/POU01YSFVn8zK/giphy.gifhttps://vignette.wikia.nocookie.net/finalfantasy/images/b/b7/FF3NES-CloudOfDarkness2.gif/revision/latest?cb=20080217171806) 
+ ![Don't be a dick](https://media.giphy.com/media/POU01YSFVn8zK/giphy.gif) 
 
 [Pipenv Docs](https://docs.pipenv.org/)
-### [Juliana Mei](http://www.julianamei.com)
 ------
 ### Installation Instructions
 
