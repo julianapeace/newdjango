@@ -24,6 +24,7 @@
 
 # Making Migrations
 - `pipenv run ./manage.py makemigrations [your-app]` (after modifying models.py)
+- `pipenv run ./manage.py migrate [your-app]` (to migrate new changes)
 # To delete directory:
 - exit virtual environment
 - delete the whole directory with rm -rf ./*
