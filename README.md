@@ -22,9 +22,8 @@
 - `pipenv run ./manage.py createsuperuser` (to create a superuser)
 - `pipenv run ./manage.py runserver` find your app at http://localhost:8000
 
-# From a git clone:
-- `pipenv install` is like `pip install -r requirements.txt`
-
+# Making Migrations
+- `pipenv run ./manage.py makemigrations [your-app]` (after modifying models.py)
 # To delete directory:
 - exit virtual environment
 - delete the whole directory with rm -rf ./*
